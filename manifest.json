@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3 ,
+    "name": "Far fay extension",
+    "version": "1.0" ,
+    "description": "This is the Far Fay Group Chrome extension",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["https://www.facebook.com/*"],
+    "action": {
+        "default_icon": "Logo2.png",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "Logo2.png" 
+    }
+}
