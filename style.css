@@ -1,0 +1,23 @@
+.container-master{
+    display:contents;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+
+.container img{
+    width: 60px;
+}
+
+.titleExtension{
+    margin-left: 5px;
+    font-family: 'Turret Road', sans-serif;
+}
+
+.container2{
+    font-family: 'Turret Road', sans-serif;
+}

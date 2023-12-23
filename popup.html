@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@300&display=swap" rel="stylesheet">
+    <link rel="preload" href="style.css" as="style">
+    <link href="style.css" rel="stylesheet">
     <title>FF Extension</title>
 </head>
 <body>
-    <h1>Far Fay Group</h1>
+    <div class="container-master">
+        <div class="container">
+            <h1 class="titleExtension">Far Fay Group Extension</h1>
+            <img src="Logo2.png" alt="" class="imgExtension">
+        </div>
+        <div class="container2">
+            <h2 class="conectionExtension">Conectado con el servidor</h2>
+        </div>
+    </div>
     <script src="socket.io.min.js"></script>
     <script src="background.js"></script>
 </body>
