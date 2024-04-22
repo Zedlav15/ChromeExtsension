@@ -26,3 +26,5 @@ var element = document.evaluate("/html/body/div[1]/div/div[1]/div/div[3]/div/div
                     } else {
                       console.error("Error: no se encontró elemento con xpath");
                     }
+
+// document.querySelector('.xy75621.xafmxuu.x11i5rnm.xat24cr.x4mskuk.xni59qk.x14yjl9h.xudhj91.x18nykt9.xww2gxu.x1ypdohk.x10l6tqk.xtzzx4i.xwa60dl.xg01cxk.xlshs6z');
